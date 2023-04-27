@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="imgs/icon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmister</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html" id="smalllogo"class="hide" ><img  src="imgs/logo1.svg" alt=""></a>
+        <a href="index.html" id="largelogo" class=""><img  src="imgs/logo2.svg" alt=""></a>
+        
+        <ul>
+            <li><a href="#lancamentos">Lançamentos</a></li>
+            <li><a href="#populares">Populares</a></li>
+            <li><a href="filmeslist.html">Filmes</a></li>
+            <li><a href="#">Séries</a></li>
+        </ul>
+        <button id="hamburguer" class="hamburguer" class="hide"><img src="imgs/menu.svg" alt=""></button>
+        <button id="hamburguer2" class="hide"><img src="imgs/menu.svg" alt=""></button>
+    </nav>
+   
+    <main>
+      <section id="lancamentos">
+        <h1>Lançamentos</h1>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" id="carousel-inner">
+              
+             
+             
+             
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+
+        <section id="populares">
+          <h1>Populares:</h2>
+          <div id="itenspopulares" >
+            <div class="itempopular">
+              <img src="imgs/01.jpeg" alt="">
+              <p id="nomefilmepop">Jujutsu Kaisen 0: O Filme</p>
+            </div>
+            <div class="itempopular">
+              <img src="imgs/02.jpeg" alt="">
+              <p id="nomefilmepop">Continência ao Amor</p>
+            </div>
+            <div class="itempopular">
+              <img src="imgs/03.jpeg" alt="">
+              <p id="nomefilmepop">Cidade Perdida</p>
+            </div>
+            <div class="itempopular">
+              <img src="imgs/04.jpeg" alt="">
+              <p id="nomefilmepop">Morbius</p>
+            </div>
+        </div>
+        <div class="escondidopop" id="escondidopop">
+          <div class="itempopular">
+            <img src="imgs/05.jpeg" alt="">
+            <p id="nomefilmepop">Red: Crescer é Uma Fera</p>
+          </div>
+          <div class="itempopular">
+            <img src="imgs/06.jpeg" alt="">
+            <p id="nomefilmepop">Agente Oculto</p>
+          </div>
+          <div class="itempopular">
+            <img src="imgs/07.jpeg" alt="">
+            <p id="nomefilmepop">Persuasão</p>
+          </div>
+          <div class="itempopular">
+            <img src="imgs/08.jpeg" alt="">
+            <p id="nomefilmepop">A Fera do Mar</p>
+          </div>
+          </div>
+        </div>
+        <div id="divbotao">
+          <button id="botaover" ><img src="imgs/plus.svg" alt=""> Ver mais</button>
+          <button id="vermenos" class="vermenos"> <img src="imgs/minus.svg" alt=""> Ver menos</button>
+        </div>
+        
+        </section>
+
+
+
+        <div id="dropdown1" class="hide">
+        <div id="dropdown" class="hide">
+          <ul>
+                <li><a href="#lancamentos">Lançamentos</a></li>
+                <li><a href="#populares">Populares</a></li>
+                <li><a href="filmeslist.html">Filmes</a></li>
+                <li><a href="">Séries</a></li>
+          </ul>
+        </div>
+      </div>
+      </main>
+      <footer>
+        <div >
+        <p>Thiago Coelho | PUC Minas | 06/2022</p>
+      </div>
+      <div id="redes">
+        <a href="https://www.linkedin.com/in/thiagodeocoelho//"  id="linkedin" ><img src="imgs/linkedin.svg" alt=""></a>
+      </div>
+      </footer>
+      <script src="scriptmeu.js"></script>
+      <script src="app2.js"></script>
+      <script src="app3.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>
